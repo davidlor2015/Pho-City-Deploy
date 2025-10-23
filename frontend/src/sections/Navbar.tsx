@@ -43,17 +43,6 @@ export function Navbar(): ReactElement {
               />
             ) : null}
           </div>
-          {/* Mobile Navbar */}
-          <div className="flex md:hidden items-center justify-between h-16 px-4">
-            <img
-              src="/logo.png"
-              alt="Pho City Logo"
-              className="h-10 w-auto object-contain"
-            />
-            <button className="text-brand-red focus:outline-none">
-              ☰ {/* You can replace this with an icon */}
-            </button>
-          </div>
 
           {/*Center: Links*/}
           <nav className="flex items-center gap-8 text-gray-800 font-medium">
@@ -104,7 +93,7 @@ export function Navbar(): ReactElement {
           >
             {navConfig.brand.logo ? (
               <img
-                src={navConfig.brand.logo}
+                src="/logo.png"
                 alt="Pho City logo"
                 className="h-10 w-10 object-contain"
               />
