@@ -95,7 +95,7 @@ export function Navbar(): ReactElement {
               <img
                 src="/logo.png"
                 alt="Pho City logo"
-                className="h-10 w-10 object-contain"
+                className="h-50 w-auto object-contain shrink-0"
               />
             ) : null}
           </div>
