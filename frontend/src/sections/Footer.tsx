@@ -19,7 +19,7 @@ export const Footer = memo(function Footer({ config = footerConfig }: { config?:
               <Link to="/" aria-label="Home">
                 <div className="h-10 md:h-12 w-full flex items-center justify-center">
                   <img
-                    src={brand.logo}
+                    src="/logo.png"
                     alt=""
                     className="h-50 w-50 object-contain shrink-0"
                   />

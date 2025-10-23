@@ -28,6 +28,7 @@ export function Navbar(): ReactElement {
   return (
     <header className="sticky top-0 z-50 bg-brand-gold/25  border-b-2 border-brand-red/50">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <img src="/logo.png" alt="Pho City Logo" />
         {/*Desktop navbar*/}
         <div className="hidden md:flex items-center justify-between h-16 lg:h-20">
           {/*Left: Logo*/}
@@ -37,7 +38,7 @@ export function Navbar(): ReactElement {
           >
             {navConfig.brand.logo ? (
               <img
-                src={navConfig.brand.logo}
+                src="/logo.png"
                 alt=""
                 className="h-50 w-auto object-contain shrink-0"
               />
