@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/card";
 import { menuConfig } from "@/config/menu.config";
 
-export default function MenuPreview(): JSX.Element {
+export default function MenuPreview() {
   const phoCategory = menuConfig.categories.find((cat) =>
     cat.name.includes("Pho Noodle Soup")
   );
@@ -82,7 +82,7 @@ export default function MenuPreview(): JSX.Element {
                    
                   </div>
                   <CardDescription className="text-gray-600 text-left text-sm">
-                    {dish.description}
+                    {dish.description ?? ''}
                   </CardDescription>
                 </CardHeader>
               </Card>

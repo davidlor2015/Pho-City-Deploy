@@ -139,25 +139,29 @@ export const menuConfig = {
           code: "D1",
           name: "Thai Iced Tea – Trà Thái",
           price: "$5.50",
-          image: ""
+          image: "",
+          description: undefined
         },
         {
           code: "D2",
           name: "Vietnamese Iced Coffee – Cà Phê Sữa Đá",
           price: "$5.50",
-          image: ""
+          image: "",
+          description: undefined
         },
         {
           code: "D3",
           name: "Soft Drinks – Nước Ngọt",
           price: "$3.00",
-          image: ""
+          image: "",
+          description: undefined
         },
         {
           code: "D4",
           name: "Bottled Water – Nước Suối",
           price: "$2.00",
-          image: ""
+          image: "",
+          description: undefined
         }
       ]
     }

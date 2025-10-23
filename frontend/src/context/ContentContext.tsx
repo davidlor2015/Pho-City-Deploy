@@ -38,7 +38,7 @@ export interface MenuCategory {
 export interface MenuItem {
   id: string;
   name: string;
-  description: string;
+  description?: string;
   price: string;
   image?: string;
 }

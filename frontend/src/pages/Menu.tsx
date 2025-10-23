@@ -1,7 +1,7 @@
 import React from "react";
 import { menuConfig } from "@/config/menu.config";
 
-export default function Menu(): JSX.Element {
+export default function Menu() {
   return (
     <main className="max-w-7xl mx-auto px-4 py-16 text-gray-800">
       <h1 className="text-4xl font-extrabold text-center text-red-700 mb-12">
