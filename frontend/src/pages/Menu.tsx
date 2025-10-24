@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { menuConfig } from "@/config/menu.config";
 
-export default function Menu(): JSX.Element {
+export default function Menu(): React.JSX.Element {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
   // Filter logic

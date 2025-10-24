@@ -1,5 +1,4 @@
 import * as React from "react";
-import { motion } from "framer-motion";
 import {
   Card,
   CardHeader,
@@ -14,20 +13,9 @@ export default function MenuPreview(): React.JSX.Element {
   );
   const featured = phoCategory ? phoCategory.items.slice(0, 4) : [];
 
-  // Animation config - adjust duration/delay here for customization
-  const fadeInUp = {
-    initial: { opacity: 0, y: 50 },
-    whileInView: { opacity: 1, y: 0 },
-    transition: { duration: 0.5, delay: 0.1 },
-    viewport: { once: true },
-  };
-
   return (
     <section id="menu" className="py-20 bg-brand-gold/5 ">
-      <motion.div
-        {...fadeInUp}
-        className="mx-auto bg-brand-gold/5 max-w-7xl px-4 sm:px-6 lg:px-8"
-      >
+      <div className="mx-auto bg-brand-gold/5 max-w-7xl px-4 sm:px-6 lg:px-8">
         {/*Header row*/}
         <div className="flex items-baseline justify-between mb-8">
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">
@@ -101,7 +89,7 @@ export default function MenuPreview(): React.JSX.Element {
             </li>
           ))}
         </ul>
-      </motion.div>
+      </div>
     </section>
   );
 }
